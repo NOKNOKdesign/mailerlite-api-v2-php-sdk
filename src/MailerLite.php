@@ -109,6 +109,21 @@ class MailerLite {
     {
         return new \MailerLiteApi\Api\Batch($this->restClient);
     }
+    
+    /**
+     * @return \MailerLiteApi\Api\Webforms
+     */
+    public function webforms() : \MailerLiteApi\Api\Webforms {
+        return new \MailerLiteApi\Api\Webforms( $this->restClient );
+    }
+
+    /**
+     * @return \MailerLiteApi\Api\Webhooks
+     */
+    public function webhooks() : \MailerLiteApi\Api\Webhooks {
+        return new \MailerLiteApi\Api\Webhooks( $this->restClient );
+    }
+
 
     /**
      * @param  string $version
