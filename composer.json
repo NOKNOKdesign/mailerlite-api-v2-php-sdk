@@ -1,6 +1,6 @@
 {
-    "name": "mailerlite/mailerlite-api-v2-php-sdk",
-    "description": "MailerLite API v2 PHP SDK",
+    "name": "noknok-studios/mailerlite-api-v2-php-sdk",
+    "description": "MailerLite API v2 PHP SDK - NOKNOK Studios Build",
     "homepage": "https://github.com/mailerlite/mailerlite-api-v2-php-sdk",
     "license": "MIT",
     "keywords": ["mailerlite", "sdk", "email", "marketing"],
